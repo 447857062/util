@@ -17,11 +17,18 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="parent"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="15dp"
             android:id="@+id/textView" />
     </android.support.constraint.ConstraintLayout>
-
+    <com.github.ksoichiro.android.observablescrollview.ObservableListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        app:layout_constraintTop_toBottomOf="@+id/ConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp"
+        tools:layout_editor_absoluteX="0dp" />
 
 </android.support.constraint.ConstraintLayout>

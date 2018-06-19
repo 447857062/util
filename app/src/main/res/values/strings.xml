@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UtilProjection</string>
+    <string name="appbar_overscroll_behavior">kelijun.com.utilprojection.AppBarLayoutOverScrollViewBehavior</string>
 </resources>
